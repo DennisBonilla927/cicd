@@ -50,6 +50,7 @@ const PokemonPage = ({ previous, next }) => {
               </tbody>
             </table>
           </div>
+          <div><p>hola</p></div>
           <div className="pokemon-abilities">
             {normalAbility && <PokemonAbility abilityName={formatName(normalAbility.ability.name)} />}
             {hiddenAbility && <PokemonAbility abilityName={formatName(hiddenAbility.ability.name)} />}
